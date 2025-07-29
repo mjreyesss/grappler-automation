@@ -1,0 +1,65 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+local.settings.json
+
+# SSH Keys
+*.pem
+*.key
+id_rsa*
+azure_sftp_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Azure Functions
+bin
+obj
+appsettings.json
+local.settings.json
+.vscode/
+.azure/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotli
