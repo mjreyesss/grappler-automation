@@ -1,8 +1,10 @@
-pyodbc
-pandas
+azure-functions
 azure-storage-blob
-pysftp
+azure-keyvault-secrets
+azure-identity
+databricks-sql-connector
+pandas
 paramiko
 python-dotenv
+pysftp
 pytz
-databricks-sql-connector
