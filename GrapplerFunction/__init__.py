@@ -150,9 +150,7 @@ def main(mytimer: func.TimerRequest) -> None:
         print("✓ os import successful")
         logging.info("✓ os import successful")
         
-        from dotenv import load_dotenv
-        print("✓ dotenv import successful")
-        logging.info("✓ dotenv import successful")
+     
         
         import pandas as pd
         print("✓ pandas import successful")
