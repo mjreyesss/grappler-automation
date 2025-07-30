@@ -167,8 +167,6 @@ def main(mytimer: func.TimerRequest) -> None:
         print("=== All imports successful! ===")
         logging.info("=== All imports successful! ===")
         
-        # Test environment variables
-        load_dotenv()
         
         databricks_host = os.getenv('DATABRICKS_SERVER_HOSTNAME')
         print(f"DATABRICKS_HOST found: {databricks_host is not None}")
